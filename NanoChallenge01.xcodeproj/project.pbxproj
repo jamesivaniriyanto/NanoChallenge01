@@ -10,10 +10,13 @@
 		572EA5A82299B156007C3E87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572EA5A72299B156007C3E87 /* AppDelegate.swift */; };
 		572EA5AA2299B156007C3E87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572EA5A92299B156007C3E87 /* ViewController.swift */; };
 		572EA5AD2299B156007C3E87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572EA5AB2299B156007C3E87 /* Main.storyboard */; };
-		572EA5AF2299B157007C3E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572EA5AE2299B157007C3E87 /* Assets.xcassets */; };
 		572EA5B22299B157007C3E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572EA5B02299B157007C3E87 /* LaunchScreen.storyboard */; };
 		572EA5BD2299B157007C3E87 /* NanoChallenge01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572EA5BC2299B157007C3E87 /* NanoChallenge01Tests.swift */; };
 		572EA5C82299B157007C3E87 /* NanoChallenge01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572EA5C72299B157007C3E87 /* NanoChallenge01UITests.swift */; };
+		572EA5DC2299D976007C3E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572EA5DA2299D976007C3E87 /* Assets.xcassets */; };
+		572EA5E6229B7E97007C3E87 /* piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 572EA5E5229B7E97007C3E87 /* piano.mp3 */; };
+		572EA5E9229B9EB6007C3E87 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 572EA5E7229B9EB6007C3E87 /* MyParticle.sks */; };
+		572EA5EA229B9EB6007C3E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572EA5E8229B9EB6007C3E87 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		572EA5A72299B156007C3E87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		572EA5A92299B156007C3E87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		572EA5AC2299B156007C3E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		572EA5AE2299B157007C3E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572EA5B12299B157007C3E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		572EA5B32299B157007C3E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572EA5B82299B157007C3E87 /* NanoChallenge01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChallenge01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,10 @@
 		572EA5C32299B157007C3E87 /* NanoChallenge01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChallenge01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		572EA5C72299B157007C3E87 /* NanoChallenge01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallenge01UITests.swift; sourceTree = "<group>"; };
 		572EA5C92299B157007C3E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572EA5DA2299D976007C3E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		572EA5E5229B7E97007C3E87 /* piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano.mp3; sourceTree = "<group>"; };
+		572EA5E7229B9EB6007C3E87 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		572EA5E8229B9EB6007C3E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				572EA5A72299B156007C3E87 /* AppDelegate.swift */,
 				572EA5A92299B156007C3E87 /* ViewController.swift */,
+				572EA5E7229B9EB6007C3E87 /* MyParticle.sks */,
+				572EA5E8229B9EB6007C3E87 /* Assets.xcassets */,
 				572EA5AB2299B156007C3E87 /* Main.storyboard */,
-				572EA5AE2299B157007C3E87 /* Assets.xcassets */,
+				572EA5DA2299D976007C3E87 /* Assets.xcassets */,
 				572EA5B02299B157007C3E87 /* LaunchScreen.storyboard */,
 				572EA5B32299B157007C3E87 /* Info.plist */,
+				572EA5D62299C91A007C3E87 /* Music */,
 			);
 			path = NanoChallenge01;
 			sourceTree = "<group>";
@@ -123,6 +132,14 @@
 				572EA5C92299B157007C3E87 /* Info.plist */,
 			);
 			path = NanoChallenge01UITests;
+			sourceTree = "<group>";
+		};
+		572EA5D62299C91A007C3E87 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				572EA5E5229B7E97007C3E87 /* piano.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +210,11 @@
 				TargetAttributes = {
 					572EA5A32299B156007C3E87 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					572EA5B72299B157007C3E87 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -230,8 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				572EA5B22299B157007C3E87 /* LaunchScreen.storyboard in Resources */,
-				572EA5AF2299B157007C3E87 /* Assets.xcassets in Resources */,
+				572EA5E6229B7E97007C3E87 /* piano.mp3 in Resources */,
 				572EA5AD2299B156007C3E87 /* Main.storyboard in Resources */,
+				572EA5DC2299D976007C3E87 /* Assets.xcassets in Resources */,
+				572EA5EA229B9EB6007C3E87 /* Assets.xcassets in Resources */,
+				572EA5E9229B9EB6007C3E87 /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

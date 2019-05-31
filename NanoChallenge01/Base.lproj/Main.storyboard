@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,85 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NanoChallenge01" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Triangle" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-9S-Ian">
+                                <rect key="frame" x="-20" y="375" width="440" height="521"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="DownLeft" translatesAutoresizingMaskIntoConstraints="NO" id="McP-j3-feb">
+                                <rect key="frame" x="70" y="590" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="UpLeft" translatesAutoresizingMaskIntoConstraints="NO" id="Kia-vz-hRx">
+                                <rect key="frame" x="70" y="175" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="DownRight" translatesAutoresizingMaskIntoConstraints="NO" id="rk5-F6-lM3">
+                                <rect key="frame" x="330" y="590" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="UpRight" translatesAutoresizingMaskIntoConstraints="NO" id="iS8-nS-REh">
+                                <rect key="frame" x="330" y="175" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cl1-9g-yZf">
+                                <rect key="frame" x="-10" y="-8" width="424" height="911"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gw4-zN-W71">
+                                <rect key="frame" x="70" y="175" width="290" height="445"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="445" id="Z2G-ID-wGD"/>
+                                    <constraint firstAttribute="width" constant="290" id="kAG-fu-DIQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pickimage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2J-64-H5t"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gXM-xI-CTt">
+                                <rect key="frame" x="47" y="166" width="330" height="467"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="467" id="7pZ-Hi-bwh"/>
+                                    <constraint firstAttribute="width" constant="330" id="PkN-bm-aiR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94404346446700504" green="0.65475392444356861" blue="0.78813324894170722" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gXM-xI-CTt" secondAttribute="bottom" constant="229" id="7NC-LF-UUo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gw4-zN-W71" secondAttribute="bottom" constant="242" id="SvQ-GO-9GT"/>
+                            <constraint firstItem="Gw4-zN-W71" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="131" id="bjj-8v-l9o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gXM-xI-CTt" secondAttribute="trailing" constant="37" id="grO-0y-WsA"/>
+                            <constraint firstItem="gXM-xI-CTt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="nZJ-5k-ayi"/>
+                            <constraint firstItem="gXM-xI-CTt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="122" id="t3O-qq-uvR"/>
+                            <constraint firstItem="Gw4-zN-W71" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="ynU-zd-xsJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gw4-zN-W71" secondAttribute="trailing" constant="54" id="zHy-pS-b2Q"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="ImagePick" destination="gXM-xI-CTt" id="5oF-7O-QMg"/>
+                        <outlet property="viewlove" destination="cl1-9g-yZf" id="6eZ-aC-94B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DownLeft" width="32" height="32"/>
+        <image name="DownRight" width="31" height="32"/>
+        <image name="Triangle" width="375" height="458"/>
+        <image name="UpLeft" width="31" height="32"/>
+        <image name="UpRight" width="31" height="32"/>
+    </resources>
 </document>
